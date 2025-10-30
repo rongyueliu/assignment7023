@@ -292,8 +292,8 @@ def draw_python():
     t.pensize(25)
     t.pencolor("purple")
     for i in range(4):
-        t.circle(40, 80)
-        t.circle(-40, 80)
+        t.circle(90, 80)
+        t.circle(-90, 80)
     t.circle(40, 80 / 2)
     t.fd(40)
     t.circle(16, 180)
@@ -313,7 +313,7 @@ def draw_flower():
     # BEGIN TO DRAW
     speed(5)  # Brush movement speed is 5 seconds
     begin_fill()  # BEGIN TO FILL COLOR
-    fillcolor('red')  
+    fillcolor('purple')  
     circle(50, 30)  # Draw a circle with radius 50 and arc 30
 
     for i in range(10):
